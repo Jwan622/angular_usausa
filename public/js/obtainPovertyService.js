@@ -1,5 +1,5 @@
 'use strict';
-var usausa = angular.module('usausa')
+var usausa = angular.module('usausa');
 usausa.factory('getPovertyData', ['$http', function($http){
   return {
     getPoverty: function() {
